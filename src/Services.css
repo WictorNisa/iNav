@@ -1,0 +1,43 @@
+.Services {
+  height: 100%;
+  width: 100%;
+}
+
+.Services-hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+  width: 100%;
+  background: url("./img/services-hero.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.Services-overlay {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgba(240, 124, 1, 0.5);
+  width: 100%;
+  height: 100%;
+}
+
+.Services-h1 {
+  font-family: "Mulish", sans-serif;
+  color: white;
+  font-size: 2em;
+  margin: auto;
+  letter-spacing: 1.2px;
+}
+
+.Service-h2 {
+  font-family: "Mulish", sans-serif;
+  font-weight: bolder;
+  font-size: 2.2em;
+  color: #ed7b00;
+  margin-top: 1em;
+  letter-spacing: 1.5px;
+}

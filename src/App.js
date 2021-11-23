@@ -1,23 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import "./Header.css";
+import "./MainContent.css";
+import "./Contact.css";
+import './Services.css'
+import Header from "./Header";
+import MainContent from "./MainContent";
+import { slide as Menu } from "react-burger-menu";
+import AppBar from "@mui/material/AppBar";
+import logo from "./img/logo.png";
+import { Link,  } from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <AppBar id="Header">
+        <Menu width={"100%"}>
+          <Link to="/" className="menu-item">
+            Home
+          </Link>
+          <Link to="/services" className="menu-item">
+            Air Navigation Services
+          </Link>
+          <Link to="/refrences" className="menu-item">
+            Refrences
+          </Link>
+        </Menu>
+        <div className="logo-contain">
+          <img className="logo" src={logo} alt="iNav logo" />
+        </div>
+      </AppBar>
+      <Header />
+      <MainContent />
     </div>
   );
 }
