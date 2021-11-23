@@ -25,6 +25,15 @@
   height: 100%;
 }
 
+.Services-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 90%;
+  margin: auto;
+  text-align: left;
+}
+
 .Services-h1 {
   font-family: "Mulish", sans-serif;
   color: white;
@@ -33,11 +42,53 @@
   letter-spacing: 1.2px;
 }
 
-.Service-h2 {
+.Services-h2 {
+  text-align: center;
   font-family: "Mulish", sans-serif;
   font-weight: bolder;
-  font-size: 2.2em;
+  font-size: 2em;
   color: #ed7b00;
-  margin-top: 1em;
   letter-spacing: 1.5px;
+}
+
+.Services-h3 {
+  padding: 0 1em 0 1em;
+  text-align: center;
+  font-family: "Mulish", sans-serif;
+  font-weight: bolder;
+  font-size: 2em;
+  color: #ed7b00;
+  letter-spacing: 1.5px;
+}
+
+.Services-h5 {
+  padding: 0 1em 0 1em;
+  text-align: left;
+  font-family: "Mulish", sans-serif;
+  font-weight: bolder;
+  color: #ed7b00;
+  letter-spacing: 1.5px;
+  margin: auto 0;
+}
+
+.Services-p {
+  font-family: "Neuton", serif;
+  font-size: 1.2em;
+  text-align: left;
+  padding: 0 1em 0 1em;
+  margin: auto;
+}
+
+.Services-wrapper ul {
+  list-style: none;
+  padding-left: 1em;
+  
+}
+
+.Services-wrapper ul li {
+  font-family: "Neuton", serif;
+  font-size: 1.2em;
+  text-align: left;
+  padding: 0 1em 0 1em;
+  margin-top: .4em;
 }

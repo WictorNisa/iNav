@@ -32,26 +32,59 @@ class Services extends Component {
           </div>
         </section>
         <section className="Services-info">
-          <h2 className="Service-h2">iNav optimizing airports and airspace</h2>
-          <p>
-            IBG are experts in aviation infrastructure. Our core competence is
-            to optimize airspace and airports from an air traffic, regulatory,
-            technical, financial, and sustainable perspective. Our clients are
-            primarily airports and airport authorities, and increasingly,
-            municipalities, advanced air mobility logistics companies and others
-            keen to take a front position in the next phase of aviation.
-          </p>
+          <div className="Services-wrapper">
+            <h2 className="Services-h2">
+              iNav optimizing airports and airspace
+            </h2>
+            <p className="Services-p">
+              IBG are experts in aviation infrastructure. Our core competence is
+              to optimize airspace and airports from an air traffic, regulatory,
+              technical, financial, and sustainable perspective. Our clients are
+              primarily airports and airport authorities, and increasingly,
+              municipalities, advanced air mobility logistics companies and
+              others keen to take a front position in the next phase of
+              aviation.
+            </p>
 
-          <h4>Our services:</h4>
+            <h3 className="Services-h3">Our services:</h3>
 
-          <h5>Level of engagement</h5>
-          <ul>
-              <li>IBG Consultancy Framework (Time-based)</li>
-              <li>Deliverable (Task Based) Consultancy </li>
-              <li>Project Management Consulting </li>
-              <li>Turnkey</li>
-          </ul>
-          
+            <h5 className="Services-h5">Level of engagement</h5>
+            <ul>
+              <li>&gt; iNav Consultancy Framework (Time-based)</li>
+              <li>&gt; Deliverable (Task Based) Consultancy </li>
+              <li>&gt; Project Management Consulting </li>
+              <li>&gt; Turnkey</li>
+            </ul>
+
+            <h5 className="Services-h5">Consultancy areas</h5>
+            <ul>
+              <li>&gt; Financial Analysis</li>
+              <li>&gt; Advisory</li>
+              <li>&gt; A-CDM/TAM/APOC/AOCC</li>
+              <li>&gt; Safety Management & Audit</li>
+              <li>&gt; Airport Audit & Certification</li>
+            </ul>
+
+            <h5 className="Services-h5">Engineering & Design </h5>
+            <ul>
+              <li>&gt; CNS/ATM</li>
+              <li>&gt; Meteorology</li>
+            </ul>
+
+            <h5 className="Services-h5">Pans-Ops & Airspace</h5>
+            <ul>
+              <li>&gt; Aeronautical Studies</li>
+              <li>&gt; Airspace/Procedure design</li>
+              <li>&gt; Obstacle Assessment</li>
+              <li>&gt; Safeguarding</li>
+            </ul>
+
+            <h5 className="Services-h5">Advanced Air Mobility</h5>
+            <ul>
+              <li>&gt;Advanced Air Mobility Consulting</li>
+              <li>&gt;Training</li>
+            </ul>
+          </div>
         </section>
       </div>
     );
